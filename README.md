@@ -1,12 +1,13 @@
 <div align="center">
 
-Aplicativo <a href="https://apptrackexpense.netlify.app/" target="_blank">TrackExpense</a> - Rastrear suas despesas
+Aplicativo <a href="https://apptrackexpense.netlify.app/" target="_blank">TrackExpense</a> - Organize suas despesas
 
-<p>O aplicativo Rastreador de Dinheiro é uma ferramenta simples para ajudar a controlar suas despesas diárias. Com ele, você pode adicionar suas despesas, categorizá-las e acompanhar seu total gasto. É uma ótima maneira de manter o controle das suas finanças pessoais.</p></div>
+<p>O aplicativo organizador de despezas é uma ferramenta simples para ajudar a controlar suas despesas diárias. Com ele, você pode adicionar suas despesas, categorizá-las e acompanhar seu total gasto. É uma ótima maneira de manter o controle das suas finanças pessoais.</p></div>
 
-![alt text](preview.png)
+![preview](https://github.com/daniel-portela/app-trackexpense/assets/110783805/a641667d-bdcb-45c5-aa7b-361799cf9db8)
 
-![alt text](preview-responsive.jpg)
+![preview-responsive](https://github.com/daniel-portela/app-trackexpense/assets/110783805/14d00f45-772d-453e-bf6f-d3c2ca755266)
+
 
 👨🏼‍💻 <b>Tecnologias utilizadas:</b>
 
