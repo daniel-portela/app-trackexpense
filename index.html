@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Aplicativo TrackExpense - Rastrear suas despesas</title>
+  </head>
+
+  <body>
+    <h1>Organize suas despesas</h1>
+
+    <div class="input-section">
+      <label for="category-select">Categoria:</label>
+      <select id="category-select">
+        <option value="Taxa da faculdade">Taxa da faculdade</option>
+        <option value="Aluguel" class="rent-option">Aluguel</option>
+        <option value="Transporte">Transporte</option>
+        <option value="Comida">Comida</option>
+        <option value="Compras">Compras</option>
+        <option value="Bebidas geladas">Bebidas geladas</option>
+        <option value="Carro">Carro</option>
+      </select>
+
+      <label for="amount-input">Quantia:</label>
+      <input type="number" id="amount-input" />
+      <label for="date-input">Data:</label>
+      <input type="date" id="date-input" />
+      <button id="add-btn">Adicionar</button>
+    </div>
+
+    <div class="expenses-list">
+      <h2>Suas despesas atuais:</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Categoria</th>
+            <th>Quantia</th>
+            <th>Data</th>
+            <th>Excluir</th>
+          </tr>
+        </thead>
+        <tbody id="expense-table-body"></tbody>
+        <tfoot>
+          <td>Total:</td>
+          <td id="total-amount"></td>
+          <td></td>
+          <td></td>
+        </tfoot>
+      </table>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>

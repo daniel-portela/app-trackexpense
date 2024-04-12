@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+select {
+  appearance: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+select option {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 5px 10px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.input-section label {
+  font-weight: bold;
+  margin-right: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
+  padding: 5px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input-section button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background-color: #0056b3;
+}
+
+.expenses-list {
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+.expenses-list h2 {
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(121, 190, 255);
+  color: rgb(12, 1, 1);
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: rgb(238, 9, 9);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  .input-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .input-section input[type="number"],
+  .input-section input[type="date"] {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .input-section button {
+    margin-top: 10px;
+  }
+
+  .expenses-list {
+    margin: 10px;
+  }
+
+  label {
+    padding: 0.7rem 0;
+  }
+}
