@@ -18,7 +18,7 @@ Aplicativo <a href="https://apptrackexpense.netlify.app/" target="_blank">TrackE
 🛠️ <b>Funcionalidades:</b>
 
 - Adicionar despesas com categorias e datas
-- Excluir despesas da lista
+- Excluir e adicionar despesas da lista
 - Visualizar o total gasto<br><br>
 
 👨🏼‍💻 <b>Contribuição</b>
